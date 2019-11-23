@@ -22,6 +22,7 @@ const checkJwt = jwt({
 
   // Validate the audience and the issuer.
   audience: "ghU3e2uuYAyEMW1JXsOeejcAtOk2Rncp",
+
   issuer: `https://ronakmehta21.auth0.com/`,
   algorithms: ["RS256"]
 });
